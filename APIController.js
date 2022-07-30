@@ -101,7 +101,7 @@ const mailer = async (rate, email) => {
 
     let mailDetails = {
         from: 'From <courtney.steuber37@ethereal.email>',
-        to: email,                   //change
+        to: email,                                           //change
         subject: 'Bitcoin to hryvna new rate',
         text: `Bitcoin to hryvna rate has been changed. Now 1 BTC cost ${rate} hryvnas`,
     }
